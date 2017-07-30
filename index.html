@@ -16,46 +16,43 @@
         <link rel="stylesheet" href="css/animations.css">
         <link rel="stylesheet" href="css/main.css">
         <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <script src="js/vendor/modernizr-2.6.2.min.js"></script>
-        <!--[if lt IE 9]>
-            <script src="js/vendor/respond.min.js"></script>
-        <![endif]-->
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-<!--
-    <nav id="header-nav">
-        <div class="">
-    		<a href="login.html">Register</a> &nbsp; | &nbsp; <a href="login.html">Sign In</a>
-    	</div>
-    </nav> -->
-
 
     <section id="mainslider" class="color_section bg_image gradient">
         <div class="flexslider">
             <ul class="slides">
                 <li>
-                    <img src="./img/rdgbannerlogo.png" alt="" />
+                    <img style="max-width: 36%;" src="./img/Ruby_Duby_Glam_Logo_Transparent_Rose.png" alt="" />
                     <div class="slide_description_wrapper">
                         <div class="slide_description">
-                            <h4 data-animation="fadeIn">Welcome to</h4>
-                            <h2 data-animation="fadeIn">RubyDubyGlam</h2>
+                            <h4 id="h4-font" class="rubydubyglam-welcome-to" style="font-family: 'Roboto', sans-serif;" data-animation="fadeIn">Welcome to</h4>
+                            <h2 id="h2-font" class="rubydubyglam-header" data-animation="fadeIn">RubyDubyGlam</h2>
                             <!-- <h3 data-animation="fadeInLeft">Beauty Theme</h3> -->
                             <br>
-                            <p data-animation="fadeInRight">
+                            <p class="book-now-button" data-animation="fadeInRight">
                                 <a class="theme_btn" href="https://www.rubydubyglam.com/">Book Now</a>
                             </p>
                         </div>
                     </div>
+                    <!-- <div style="position: absolute; bottom: 0; right: 0; display: flex; justify-content: space-between; width: 15%; margin-bottom: 1%; margin-right: 1%;">
+                        <a href="https://www.instagram.com/rubydubyglam/" style="font-size:250%;" class="fa fa-instagram social-media-links"></a>
+                        <a href="https://www.facebook.com/rubydubyglam/?ref=br_rs" style="font-size:250%;" class="fa fa-facebook social-media-links"></a>
+                        <a href="#" style="font-size:250%;" class="fa fa-twitter social-media-links"></a>
+                        <a href="#" style="font-size:250%;" class="fa fa-yelp social-media-links"></a>
+                        <a href="https://www.pinterest.com/rubydubyglam/" style="font-size:250%; margin-right:4%" class="fa fa-pinterest social-media-links"></a>
+                    </div> -->
                 </li>
 
             </ul>
         </div>
     </section>
 
-<!--     <header id="header" class="darkgrey_section">
+    <header id="header" class="darkgrey_section">
         <div class="container">
             <div class="row">
 
@@ -68,27 +65,26 @@
                     <nav>
                         <ul id="mainmenu" class="menu nav sf-menu responsive-menu superfish">
                             <li class="active">
-                                <a href="#">Home</a>
+                                <a href="index.html">Home</a>
                             </li>
                             <li class="">
                                 <a href="#info">How it works</a>
                             </li>
-                            <li class="">
+                            <li class="dropdown">
                                 <a href="#services">Services</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Styles</a>
+                                <a href="#">STYLE GUIDE</a>
                             </li>
                             <li class="dropdown">
-                                <a href="#">Packages</a>
+                                <a href="#">ABOUT US</a>
                             </li>
                         </ul>
                     </nav>
                 </div>
             </div>
         </div>
-    </header> -->
-
+    </header>
 
     <section id="info" class="light_section">
         <div class="container">
@@ -101,25 +97,25 @@
                 <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
                     <div class="single_teaser icons style1">
                         <div class="icons_introimg image-icon">
-                            <a href="#folio"><i class="rt-icon-eye-outline"></i></a>
+                            <a href="#services"><i class="rt-icon-eye-outline"></i></a>
                         </div>
-                        <h3><a href="#folio">VIEW OUR SERVICES</a></h3>
+                        <h3><a href="#services">VIEW OUR SERVICES</a></h3>
                         <p class="introtext">We'll come to you! We choose only the best hair and makeup stylists.</p>
                     </div>
                 </div>
                 <div class="block col-sm-4 to_animate" data-animation="fadeInUp" data-delay="300">
                     <div class="single_teaser icons style1">
                         <div class="icons_introimg image-icon">
-                            <a href="#"><i class="rt-icon-calender-outline"></i></a>
+                            <a href="https://www.rubydubyglam.com/"><i class="rt-icon-calender-outline"></i></a>
                         </div>
-                        <h3><a href="#">BOOK YOUR APPOINTMENTS</a></h3>
+                        <h3><a href="https://www.rubydubyglam.com/">BOOK YOUR APPOINTMENTS</a></h3>
                         <p class="introtext">Choose your date and time, then location, and last payment method, with email and text confirmation. It's that easy! </p>
                     </div>
                 </div>
                 <div class="block col-sm-4 to_animate" data-animation="fadeInRight" data-delay="300">
                     <div class="single_teaser icons style1">
                         <div class="icons_introimg image-icon">
-                            <a href="#"><i class="rt-icon-heart4"></i></a>
+                            <a href="styleguide.html"><i class="rt-icon-heart4"></i></a>
                         </div>
                         <h3><a href="#">GET READY TO BE GORGEOUS</a></h3>
                         <p class="introtext">Our experienced stylists come readily prepared with tools and product!</p>
@@ -137,7 +133,7 @@
                 <div class="col-sm-12">
                     <h2 class="block-header text-center to_animate" data-animation="slideUp">OUR SERVICES</h2>
                     <p class="text-center">
-                        All price exclude tax & tip.
+                        All prices include tax. Tips are not included.
                     </p>
                 </div>
             </div>
@@ -150,7 +146,7 @@
                         <a href="#" data-largesrc="example/Archive/blowout.jpg" data-title="Project Name 1" data-description="data-description">
                             <img src="example/Archive/blowout.png" alt=""/>
                         </a>
-                        <h3 class="oswald-text">BLOWOUTS - $50 (Duration: 45 min)</h3>
+                        <h3 class="oswald-text">BLOWOUTS </h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
@@ -166,10 +162,10 @@
 
 
                     <li>
-                        <a href="#" data-largesrc="example/Archive/blowout.png" data-title="Project Name 1" data-description="data-description">
-                            <img src="example/Archive/blowout.png" alt=""/>
+                        <a href="#" data-largesrc="./img/braidwithblowout.JPG" data-title="Project Name 1" data-description="data-description">
+                            <img src="./img/braidwithblowout.JPG" alt=""/>
                         </a>
-                        <h3 class="oswald-text">BRAID & BLOW OUT - $75 (Duration 50 mins)</h3>
+                        <h3 class="oswald-text">BRAID & BLOW OUT</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
@@ -187,12 +183,12 @@
                         <a href="#" data-largesrc="example/Archive/updo.jpg" data-title="Project Name 1" data-description="data-description">
                             <img src="example/Archive/updo.jpg" alt=""/>
                         </a>
-                        <h3 class="oswald-text">Up-Do & Blow Out - $85 (Duration 90 mins)</h3>
+                        <h3 class="oswald-text">Up-Do</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
                                 <p class="description">
-                                    Up-Do & Blow Out
+                                    Up-Do
                                 </p>
                                 <p class="skills"><span>Price:</span> $85</p>
                                 <p class="client"><span>Duration:</span> 90 mins</p>
@@ -205,14 +201,14 @@
                         <a href="#" data-largesrc="example/Archive/makeup.jpg" data-title="Project Name 1" data-description="data-description">
                             <img src="example/Archive/makeup.jpg" alt=""/>
                         </a>
-                        <h3 class="oswald-text">Make-up - $65 (Duration 60 mins)</h3>
+                        <h3 class="oswald-text">Make-up</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
                                 <p class="description">
                                     Make-up
                                 </p>
-                                <p class="skills"><span>Price:</span> $65</p>
+                                <p class="skills"><span>Price:</span> $75</p>
                                 <p class="client"><span>Duration:</span> 60 mins</p>
                                 <p class="location"><span>Area of Service:</span> Los Angeles</p>
                             </div>
@@ -220,10 +216,10 @@
                     </li>
 
                     <li>
-                        <a href="#" data-largesrc="example/Archive/lashfill.jpg" data-title="Project Name 1" data-description="data-description">
-                            <img src="example/Archive/lashfill.jpg" alt=""/>
+                        <a href="#" data-largesrc="./img/lashstrip.jpg" data-title="Project Name 1" data-description="data-description">
+                            <img src="./img/lashstrip.jpg" alt=""/>
                         </a>
-                        <h3 class="oswald-text">Lash strip $25</h3>
+                        <h3 class="oswald-text">Maek-Up & Lash Strip</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
@@ -242,7 +238,7 @@
                         <a href="#" data-largesrc="example/Archive/lashextension.jpg" data-title="Project Name 1" data-description="data-description">
                             <img src="example/Archive/lashextension.jpg" alt=""/>
                         </a>
-                        <h3 class="oswald-text">Lash extensions - $200 (Duration: 120 mins)</h3>
+                        <h3 class="oswald-text">Lash extensions</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
@@ -257,33 +253,33 @@
                     </li>
 
                     <li>
-                        <a href="#" data-largesrc="example/Archive/updo.jpg" data-title="Project Name 1" data-description="data-description">
-                            <img src="example/Archive/updo.jpg" alt=""/>
+                        <a href="#" data-largesrc="./img/lashrefill.jpg" data-title="Project Name 1" data-description="data-description">
+                            <img src="./img/lashrefill.jpg" alt=""/>
                         </a>
-                        <h3 class="oswald-text">PEDICURES - $50</h3>
+                        <h3 class="oswald-text">Lash Extension Refill</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
                                 <p class="description">
                                     Pedicures
                                 </p>
-                                <p class="skills"><span>Price:</span> $55</p>
-                                <p class="client"><span>Duration:</span> 60 mins</p>
+                                <p class="skills"><span>Price:</span> $125</p>
+                                <p class="client"><span>Duration:</span> </p>
                                 <p class="location"><span>Area of Service:</span> Los Angeles</p>
                             </div>
                         </div>
                     </li>
 
                     <li>
-                        <a href="#" data-largesrc="example/Archive/updo.jpg" data-title="Project Name 1" data-description="data-description">
-                            <img src="example/Archive/updo.jpg" alt=""/>
+                        <a href="#" data-largesrc="./img/groupevents.PNG" data-title="Project Name 1" data-description="data-description">
+                            <img src="./img/groupevents.PNG" alt=""/>
                         </a>
-                        <h3 class="oswald-text">BRIDAL - Inquire</h3>
+                        <h3 class="oswald-text">Group Events - Inquire</h3>
                         <div class="portfolio_description">
                             <div class="block">
                                 <h3>Project 1 Details</h3>
                                 <p class="description">
-                                    Bridal
+                                    Group Events
                                 </p>
                                 <p class="skills"><span>Price:</span> INQUIRE</p>
                                 <p class="client"><span>Duration:</span> N/A</p>
@@ -297,17 +293,89 @@
         </div>
     </section>
 
-    <footer id="footer" class="grey_section">
+    <section id="info" class="light_section">
         <div class="container">
             <div class="row">
+                <div class="col-sm-12 text-center">
+                    <h2 class="block-header to_animate" data-animation="fadeInDown" data-delay="300">LOCATIONS</h2>
+                </div>
+                <div class="row">
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/losangeles.jpeg">
+                            <h3><a href="#services">LOS ANGELES</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/Santa_monica_pier_entrance_evening.jpg">
+                            <h3><a href="#services">SANTA MONICA</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/beverlyhills.jpg">
+                            <h3><a href="#services">BEVERLY HILLS</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/woodlandhills.png">
+                            <h3><a href="#services">WOODLAND HILLS</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/tarzana.png">
+                            <h3><a href="#services">TARZANA</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/encino.png">
+                            <h3><a href="#services">ENCINO</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/westhills.jpg">
+                            <h3><a href="#services">WEST HILLS</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/Valley.png">
+                            <h3><a href="#services">RESEDA</a></h3>
+                        </div>
+                    </div>
+                    <div class="block col-sm-4 to_animate" data-animation="fadeInLeft" data-delay="300">
+                        <div class="single_teaser icons style1">
+                            <img style="width:110px;" src="./img/northridge.jpg">
+                            <h3><a href="#services">NORTHRIDGE</a></h3>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </footer>
+    </section>
+
 
 
     <section id="copyright" class="light_section" style="background-color: #2C2C2C;">
         <div class="container">
             <div class="row">
+                <div class="col-sm-12 text-center">
+                    <a href="./aboutus.html">ABOUT US</a>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <a href="./styleguide.html">STYLE GUIDE</a>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <a href="./contactus.html">CONTACT US</a>
+                </div>
+                <div class="col-sm-12 text-center">
+                    <a href="./careers.html">CAREERS</a>
+                </div>
                 <div class="col-sm-12 text-center">
                     <a href="./termsofservice.html">TERMS OF SERVICE</a>
                 </div>
@@ -315,7 +383,6 @@
                     <a href="./privacypolicy.html">PRIVACY POLICY</a>
                 </div>
             </div>
-
         </div>
     </section>
 
