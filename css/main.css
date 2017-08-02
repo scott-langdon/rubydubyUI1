@@ -989,11 +989,11 @@ margin: 0 0 44px;
                 font-weight: 700;
                 font-size: 1900%;
                 letter-spacing: -1px;
-                margin: 0 0 2% 4%;
+                margin: 0 0 2% -9%;
             }
             #mainslider h4 {
                 font-size: 700%;
-                margin: 0 0 2% 4%;
+                margin: 0px 0 2% -11%;
             }
             .theme_btn {
                 font-size: 47px;
@@ -1008,7 +1008,7 @@ margin: 0 0 44px;
                 text-transform: uppercase;
                 display: inline-block;
                 background-color: transparent;
-                margin: 0 0 2% 42%;
+                margin: 0 0 2% 36%;
 
                 -webkit-transition: all 0.35s ease-in-out;
                 -moz-transition: all 0.35s ease-in-out;
@@ -1029,68 +1029,19 @@ margin: 0 0 44px;
             }
         }
 
-
-/*1750*/
-        @media (max-width: 1750px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 1400%;
-                letter-spacing: -1px;
-                margin: 0 0 2% 4%;
-            }
-            #mainslider h4 {
-                font-size: 700%;
-                margin: 0 0 2% 4%;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 7.3em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
-                margin: 0 0 2% 42%;
-
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -1163px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
-
-        /*1400*/
-                @media (max-width: 1400px) {
+        /*1850*/
+                @media (max-width: 1850px) {
                     #mainslider h2 {
                         text-transform: uppercase;
                         color: white;
                         font-weight: 700;
-                        font-size: 1400%;
+                        font-size: 1600%;
                         letter-spacing: -1px;
-                        margin: 0 0 2% -7%;
+                        margin: 0 0 2% -9%;
                     }
                     #mainslider h4 {
-                        font-size: 700%;
-                        margin: 0 0 2% -5%;
+                        font-size: 500%;
+                        margin: 0px 0 2% -11%;
                     }
                     .theme_btn {
                         font-size: 47px;
@@ -1105,7 +1056,7 @@ margin: 0 0 44px;
                         text-transform: uppercase;
                         display: inline-block;
                         background-color: transparent;
-                        margin: 0 0 2% 33%;
+                        margin: 0 0 2% 35%;
 
                         -webkit-transition: all 0.35s ease-in-out;
                         -moz-transition: all 0.35s ease-in-out;
@@ -1126,19 +1077,19 @@ margin: 0 0 44px;
                     }
                 }
 
-                /*1200*/
-                        @media (max-width: 1200px) {
+                /*1620*/
+                        @media (max-width: 1620px) {
                             #mainslider h2 {
                                 text-transform: uppercase;
                                 color: white;
                                 font-weight: 700;
-                                font-size: 1200%;
+                                font-size: 1300%;
                                 letter-spacing: -1px;
                                 margin: 0 0 2% -9%;
                             }
                             #mainslider h4 {
-                                font-size: 700%;
-                                margin: 0 0 2% -9%;
+                                font-size: 400%;
+                                margin: 0px 0 2% -11%;
                             }
                             .theme_btn {
                                 font-size: 47px;
@@ -1153,7 +1104,7 @@ margin: 0 0 44px;
                                 text-transform: uppercase;
                                 display: inline-block;
                                 background-color: transparent;
-                                margin: 0 0 2% 27%;
+                                margin: 0 0 2% 34%;
 
                                 -webkit-transition: all 0.35s ease-in-out;
                                 -moz-transition: all 0.35s ease-in-out;
@@ -1174,19 +1125,19 @@ margin: 0 0 44px;
                             }
                         }
 
-                        /*1129*/
-                                @media (max-width: 1129px) {
+                        /*1410*/
+                                @media (max-width: 1430px) {
                                     #mainslider h2 {
                                         text-transform: uppercase;
                                         color: white;
                                         font-weight: 700;
-                                        font-size: 1200%;
+                                        font-size: 1000%;
                                         letter-spacing: -1px;
-                                        margin: 0 0 2% -26%;
+                                        margin: 0 0 2% -9%;
                                     }
                                     #mainslider h4 {
-                                        font-size: 500%;
-                                        margin: 0 0 2% -49%;
+                                        font-size: 400%;
+                                        margin: 0px 0 2% -11%;
                                     }
                                     .theme_btn {
                                         font-size: 47px;
@@ -1201,7 +1152,7 @@ margin: 0 0 44px;
                                         text-transform: uppercase;
                                         display: inline-block;
                                         background-color: transparent;
-                                        margin: 0 0 2% 10%;
+                                        margin: 0px 0 2% 30%;
 
                                         -webkit-transition: all 0.35s ease-in-out;
                                         -moz-transition: all 0.35s ease-in-out;
@@ -1222,22 +1173,22 @@ margin: 0 0 44px;
                                     }
                                 }
 
-                                /*1000*/
-                                        @media (max-width: 1000px) {
+                                /*1300*/
+                                        @media (max-width: 1300px) {
                                             #mainslider h2 {
                                                 text-transform: uppercase;
                                                 color: white;
                                                 font-weight: 700;
                                                 font-size: 1000%;
                                                 letter-spacing: -1px;
-                                                margin: 0 0 2% -26%;
+                                                margin: 0 0 2% -18%;
                                             }
                                             #mainslider h4 {
-                                                font-size: 300%;
-                                                margin: 0 0 2% -49%;
+                                                font-size: 400%;
+                                                margin: 0px 0 2% -27%;
                                             }
                                             .theme_btn {
-                                                font-size: 200%;
+                                                font-size: 47px;
                                                 font-weight: 400;
                                                 margin: 0px 0 0 7.3em;
                                                 border: 2px solid #DD4861;
@@ -1249,7 +1200,7 @@ margin: 0 0 44px;
                                                 text-transform: uppercase;
                                                 display: inline-block;
                                                 background-color: transparent;
-                                                margin: 0 0 2% 10%;
+                                                margin: 0px 0 2% 23%;
 
                                                 -webkit-transition: all 0.35s ease-in-out;
                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1270,22 +1221,22 @@ margin: 0 0 44px;
                                             }
                                         }
 
-                                        /*900*/
-                                                @media (max-width: 900px) {
+                                        /*1150*/
+                                                @media (max-width: 1150px) {
                                                     #mainslider h2 {
                                                         text-transform: uppercase;
                                                         color: white;
                                                         font-weight: 700;
-                                                        font-size: 900%;
+                                                        font-size: 700%;
                                                         letter-spacing: -1px;
-                                                        margin: 0 0 2% -35%;
+                                                        margin: 0 0 2% -21%;
                                                     }
                                                     #mainslider h4 {
                                                         font-size: 300%;
-                                                        margin: 0 0 2% -67%;
+                                                        margin: 0px 0 2% -33%;
                                                     }
                                                     .theme_btn {
-                                                        font-size: 150%;
+                                                        font-size: 47px;
                                                         font-weight: 400;
                                                         margin: 0px 0 0 7.3em;
                                                         border: 2px solid #DD4861;
@@ -1297,7 +1248,7 @@ margin: 0 0 44px;
                                                         text-transform: uppercase;
                                                         display: inline-block;
                                                         background-color: transparent;
-                                                        margin: 0 0 2% 3%;
+                                                        margin: 0px 0 2% 16%;
 
                                                         -webkit-transition: all 0.35s ease-in-out;
                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1318,22 +1269,22 @@ margin: 0 0 44px;
                                                     }
                                                 }
 
-                                                /*800*/
-                                                        @media (max-width: 800px) {
+                                                /*1000*/
+                                                        @media (max-width: 1000px) {
                                                             #mainslider h2 {
                                                                 text-transform: uppercase;
                                                                 color: white;
                                                                 font-weight: 700;
-                                                                font-size: 800%;
+                                                                font-size: 700%;
                                                                 letter-spacing: -1px;
-                                                                margin: 0 0 2% -48%;
+                                                                margin: 0 0 2% -28%;
                                                             }
                                                             #mainslider h4 {
                                                                 font-size: 300%;
-                                                                margin: 0 0 2% -98%;
+                                                                margin: 0px 0 2% -43%;
                                                             }
                                                             .theme_btn {
-                                                                font-size: 150%;
+                                                                font-size: 47px;
                                                                 font-weight: 400;
                                                                 margin: 0px 0 0 7.3em;
                                                                 border: 2px solid #DD4861;
@@ -1345,7 +1296,7 @@ margin: 0 0 44px;
                                                                 text-transform: uppercase;
                                                                 display: inline-block;
                                                                 background-color: transparent;
-                                                                margin: 0 0 2% -12%;
+                                                                margin: 0px 0 2% 6%;
 
                                                                 -webkit-transition: all 0.35s ease-in-out;
                                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1366,22 +1317,22 @@ margin: 0 0 44px;
                                                             }
                                                         }
 
-                                                        /*700*/
-                                                                @media (max-width: 700px) {
+                                                        /*950*/
+                                                                @media (max-width: 950px) {
                                                                     #mainslider h2 {
                                                                         text-transform: uppercase;
                                                                         color: white;
                                                                         font-weight: 700;
-                                                                        font-size: 700%;
+                                                                        font-size: 600%;
                                                                         letter-spacing: -1px;
-                                                                        margin: 0 0 2% -62%;
+                                                                        margin: 0 0 2% -34%;
                                                                     }
                                                                     #mainslider h4 {
-                                                                        font-size: 300%;
-                                                                        margin: 0 0 2% -130%;
+                                                                        font-size: 200%;
+                                                                        margin: 0px 0 2% -61%;
                                                                     }
                                                                     .theme_btn {
-                                                                        font-size: 150%;
+                                                                        font-size: 28px;
                                                                         font-weight: 400;
                                                                         margin: 0px 0 0 7.3em;
                                                                         border: 2px solid #DD4861;
@@ -1393,7 +1344,7 @@ margin: 0 0 44px;
                                                                         text-transform: uppercase;
                                                                         display: inline-block;
                                                                         background-color: transparent;
-                                                                        margin: 0 0 2% -32%;
+                                                                        margin: 0px 0 2% 4%;
 
                                                                         -webkit-transition: all 0.35s ease-in-out;
                                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1414,22 +1365,22 @@ margin: 0 0 44px;
                                                                     }
                                                                 }
 
-                                                                /*633*/
-                                                                        @media (max-width: 633px) {
+                                                                /*850*/
+                                                                        @media (max-width: 850px) {
                                                                             #mainslider h2 {
                                                                                 text-transform: uppercase;
                                                                                 color: white;
                                                                                 font-weight: 700;
                                                                                 font-size: 600%;
                                                                                 letter-spacing: -1px;
-                                                                                margin: 0 0 2% -62%;
+                                                                                margin: 0 0 2% -42%;
                                                                             }
                                                                             #mainslider h4 {
-                                                                                font-size: 300%;
-                                                                                margin: 0 0 2% -130%;
+                                                                                font-size: 200%;
+                                                                                margin: 0px 0 2% -77%;
                                                                             }
                                                                             .theme_btn {
-                                                                                font-size: 150%;
+                                                                                font-size: 28px;
                                                                                 font-weight: 400;
                                                                                 margin: 0px 0 0 7.3em;
                                                                                 border: 2px solid #DD4861;
@@ -1441,7 +1392,7 @@ margin: 0 0 44px;
                                                                                 text-transform: uppercase;
                                                                                 display: inline-block;
                                                                                 background-color: transparent;
-                                                                                margin: 0 0 2% -32%;
+                                                                                margin: 0px 0 2% -5%;
 
                                                                                 -webkit-transition: all 0.35s ease-in-out;
                                                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1462,22 +1413,22 @@ margin: 0 0 44px;
                                                                             }
                                                                         }
 
-                                                                        /*555*/
-                                                                                @media (max-width: 555px) {
+                                                                        /*780px*/
+                                                                                @media (max-width: 780px) {
                                                                                     #mainslider h2 {
                                                                                         text-transform: uppercase;
                                                                                         color: white;
                                                                                         font-weight: 700;
                                                                                         font-size: 600%;
                                                                                         letter-spacing: -1px;
-                                                                                        margin: 0 0 2% -81%;
+                                                                                        margin: 0 0 2% -56%;
                                                                                     }
                                                                                     #mainslider h4 {
-                                                                                        font-size: 300%;
-                                                                                        margin: 0 0 2% -157%;
+                                                                                        font-size: 200%;
+                                                                                        margin: 0px 0 2% -100%;
                                                                                     }
                                                                                     .theme_btn {
-                                                                                        font-size: 150%;
+                                                                                        font-size: 28px;
                                                                                         font-weight: 400;
                                                                                         margin: 0px 0 0 7.3em;
                                                                                         border: 2px solid #DD4861;
@@ -1489,7 +1440,7 @@ margin: 0 0 44px;
                                                                                         text-transform: uppercase;
                                                                                         display: inline-block;
                                                                                         background-color: transparent;
-                                                                                        margin: 0 0 2% -47%;
+                                                                                        margin: 0px 0 2% -16%;
 
                                                                                         -webkit-transition: all 0.35s ease-in-out;
                                                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1510,22 +1461,22 @@ margin: 0 0 44px;
                                                                                     }
                                                                                 }
 
-                                                                                /*465*/
-                                                                                        @media (max-width: 465px) {
+                                                                                /*700*/
+                                                                                        @media (max-width: 700px) {
                                                                                             #mainslider h2 {
                                                                                                 text-transform: uppercase;
                                                                                                 color: white;
                                                                                                 font-weight: 700;
-                                                                                                font-size: 500%;
+                                                                                                font-size: 550%;
                                                                                                 letter-spacing: -1px;
-                                                                                                margin: 0 0 2% -108%;
+                                                                                                margin: 0px 0 2% -67%;
                                                                                             }
                                                                                             #mainslider h4 {
-                                                                                                font-size: 300%;
-                                                                                                margin: 0 0 2% -219%;
+                                                                                                font-size: 200%;
+                                                                                                margin: 0px 0 2% -124%;
                                                                                             }
                                                                                             .theme_btn {
-                                                                                                font-size: 60%;
+                                                                                                font-size: 28px;
                                                                                                 font-weight: 400;
                                                                                                 margin: 0px 0 0 7.3em;
                                                                                                 border: 2px solid #DD4861;
@@ -1537,7 +1488,7 @@ margin: 0 0 44px;
                                                                                                 text-transform: uppercase;
                                                                                                 display: inline-block;
                                                                                                 background-color: transparent;
-                                                                                                margin: 0 0 2% -72%;
+                                                                                                margin: 0px 0 2% -30%;
 
                                                                                                 -webkit-transition: all 0.35s ease-in-out;
                                                                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1558,22 +1509,22 @@ margin: 0 0 44px;
                                                                                             }
                                                                                         }
 
-                                                                                        /*ipad pro*/
-                                                                                                @media (max-width: 1024px) {
+                                                                                        /*630*/
+                                                                                                @media (max-width: 630px) {
                                                                                                     #mainslider h2 {
                                                                                                         text-transform: uppercase;
                                                                                                         color: white;
                                                                                                         font-weight: 700;
-                                                                                                        font-size: 1000%;
+                                                                                                        font-size: 550%;
                                                                                                         letter-spacing: -1px;
-                                                                                                        margin: 0 0 2% -39%;
+                                                                                                        margin: 0px 0 2% -73%;
                                                                                                     }
                                                                                                     #mainslider h4 {
-                                                                                                        font-size: 300%;
-                                                                                                        margin: 0 0 2% -79%;
+                                                                                                        font-size: 200%;
+                                                                                                        margin: 0px 0 2% -134%;
                                                                                                     }
                                                                                                     .theme_btn {
-                                                                                                        font-size: 200%;
+                                                                                                        font-size: 28px;
                                                                                                         font-weight: 400;
                                                                                                         margin: 0px 0 0 7.3em;
                                                                                                         border: 2px solid #DD4861;
@@ -1585,7 +1536,7 @@ margin: 0 0 44px;
                                                                                                         text-transform: uppercase;
                                                                                                         display: inline-block;
                                                                                                         background-color: transparent;
-                                                                                                        margin: 0 0 2% -2%;
+                                                                                                        margin: 0px 0 2% -36%;
 
                                                                                                         -webkit-transition: all 0.35s ease-in-out;
                                                                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1606,22 +1557,22 @@ margin: 0 0 44px;
                                                                                                     }
                                                                                                 }
 
-                                                                                                /*ipad*/
-                                                                                                        @media (max-width: 1024px) {
+                                                                                                /*580*/
+                                                                                                        @media (max-width: 580px) {
                                                                                                             #mainslider h2 {
                                                                                                                 text-transform: uppercase;
                                                                                                                 color: white;
                                                                                                                 font-weight: 700;
-                                                                                                                font-size: 800%;
+                                                                                                                font-size: 500%;
                                                                                                                 letter-spacing: -1px;
-                                                                                                                margin: 0 0 2% -56%;
+                                                                                                                margin: 0px 0 2% -85%;
                                                                                                             }
                                                                                                             #mainslider h4 {
-                                                                                                                font-size: 300%;
-                                                                                                                margin: 0 0 2% -107%;
+                                                                                                                font-size: 200%;
+                                                                                                                margin: 0px 0 2% -163%;
                                                                                                             }
                                                                                                             .theme_btn {
-                                                                                                                font-size: 200%;
+                                                                                                                font-size: 28px;
                                                                                                                 font-weight: 400;
                                                                                                                 margin: 0px 0 0 7.3em;
                                                                                                                 border: 2px solid #DD4861;
@@ -1633,7 +1584,7 @@ margin: 0 0 44px;
                                                                                                                 text-transform: uppercase;
                                                                                                                 display: inline-block;
                                                                                                                 background-color: transparent;
-                                                                                                                margin: 0 0 2% -20%;
+                                                                                                                margin: 0px 0 2% -53%;
 
                                                                                                                 -webkit-transition: all 0.35s ease-in-out;
                                                                                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1654,22 +1605,22 @@ margin: 0 0 44px;
                                                                                                             }
                                                                                                         }
 
-                                                                                                        /*iphone 6 plus*/
-                                                                                                                @media (max-width: 414px) {
+                                                                                                        /*515*/
+                                                                                                                @media (max-width: 515px) {
                                                                                                                     #mainslider h2 {
                                                                                                                         text-transform: uppercase;
                                                                                                                         color: white;
                                                                                                                         font-weight: 700;
-                                                                                                                        font-size: 440%;
+                                                                                                                        font-size: 400%;
                                                                                                                         letter-spacing: -1px;
-                                                                                                                        margin: 0px 0 2% -134%;
+                                                                                                                        margin: 0px 0 2% -101%;
                                                                                                                     }
                                                                                                                     #mainslider h4 {
                                                                                                                         font-size: 200%;
-                                                                                                                        margin: 0 0 2% -261%;
+                                                                                                                        margin: 0px 0 2% -196%;
                                                                                                                     }
                                                                                                                     .theme_btn {
-                                                                                                                        font-size: 100%;
+                                                                                                                        font-size: 28px;
                                                                                                                         font-weight: 400;
                                                                                                                         margin: 0px 0 0 7.3em;
                                                                                                                         border: 2px solid #DD4861;
@@ -1681,7 +1632,7 @@ margin: 0 0 44px;
                                                                                                                         text-transform: uppercase;
                                                                                                                         display: inline-block;
                                                                                                                         background-color: transparent;
-                                                                                                                        margin: 0 0 0 -101%;
+                                                                                                                        margin: 0px 0 2% -73%;
 
                                                                                                                         -webkit-transition: all 0.35s ease-in-out;
                                                                                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1702,22 +1653,22 @@ margin: 0 0 44px;
                                                                                                                     }
                                                                                                                 }
 
-                                                                                                                /*iphone 6*/
-                                                                                                                        @media (max-width: 375px) {
+                                                                                                                /*470*/
+                                                                                                                        @media (max-width: 470px) {
                                                                                                                             #mainslider h2 {
                                                                                                                                 text-transform: uppercase;
                                                                                                                                 color: white;
                                                                                                                                 font-weight: 700;
-                                                                                                                                font-size: 400%;
+                                                                                                                                font-size: 375%;
                                                                                                                                 letter-spacing: -1px;
-                                                                                                                                margin: 0px 0 2% -144%;
+                                                                                                                                margin: 0px 0 2% -115%;
                                                                                                                             }
                                                                                                                             #mainslider h4 {
-                                                                                                                                font-size: 170%;
-                                                                                                                                margin: 0 0 2% -285%;
+                                                                                                                                font-size: 175%;
+                                                                                                                                margin: 0px 0 2% -218%;
                                                                                                                             }
                                                                                                                             .theme_btn {
-                                                                                                                                font-size: 70%;
+                                                                                                                                font-size: 28px;
                                                                                                                                 font-weight: 400;
                                                                                                                                 margin: 0px 0 0 7.3em;
                                                                                                                                 border: 2px solid #DD4861;
@@ -1729,7 +1680,7 @@ margin: 0 0 44px;
                                                                                                                                 text-transform: uppercase;
                                                                                                                                 display: inline-block;
                                                                                                                                 background-color: transparent;
-                                                                                                                                margin: 0 0 0 -109%;
+                                                                                                                                margin: 0px 0 2% -89%;
 
                                                                                                                                 -webkit-transition: all 0.35s ease-in-out;
                                                                                                                                 -moz-transition: all 0.35s ease-in-out;
@@ -1750,22 +1701,22 @@ margin: 0 0 44px;
                                                                                                                             }
                                                                                                                         }
 
-                                                                                                                        /*iphone 5*/
-                                                                                                                                @media (max-width: 320px) {
+                                                                                                                        /*421*/
+                                                                                                                                @media (max-width: 420px) {
                                                                                                                                     #mainslider h2 {
                                                                                                                                         text-transform: uppercase;
                                                                                                                                         color: white;
                                                                                                                                         font-weight: 700;
-                                                                                                                                        font-size: 400%;
+                                                                                                                                        font-size: 300%;
                                                                                                                                         letter-spacing: -1px;
-                                                                                                                                        margin: 0px 0 2% -155%;
+                                                                                                                                        margin: 0px 0 2% -138%;
                                                                                                                                     }
                                                                                                                                     #mainslider h4 {
-                                                                                                                                        font-size: 170%;
-                                                                                                                                        margin: -10px 0 2% -301%;
+                                                                                                                                        font-size: 150%;
+                                                                                                                                        margin: 0px 0 2% -266%;
                                                                                                                                     }
                                                                                                                                     .theme_btn {
-                                                                                                                                        font-size: 70%;
+                                                                                                                                        font-size: 15px;
                                                                                                                                         font-weight: 400;
                                                                                                                                         margin: 0px 0 0 7.3em;
                                                                                                                                         border: 2px solid #DD4861;
@@ -1777,7 +1728,7 @@ margin: 0 0 44px;
                                                                                                                                         text-transform: uppercase;
                                                                                                                                         display: inline-block;
                                                                                                                                         background-color: transparent;
-                                                                                                                                        margin: -5% 0 0 -119%;
+                                                                                                                                        margin: 0px 0 2% -106%;
 
                                                                                                                                         -webkit-transition: all 0.35s ease-in-out;
                                                                                                                                         -moz-transition: all 0.35s ease-in-out;
@@ -1797,6 +1748,105 @@ margin: 0 0 44px;
                                                                                                                                         /*display: ;*/
                                                                                                                                     }
                                                                                                                                 }
+
+                                                                                                                                /*376*/
+                                                                                                                                        @media (max-width: 375px) {
+                                                                                                                                            #mainslider h2 {
+                                                                                                                                                text-transform: uppercase;
+                                                                                                                                                color: white;
+                                                                                                                                                font-weight: 700;
+                                                                                                                                                font-size: 300%;
+                                                                                                                                                letter-spacing: -1px;
+                                                                                                                                                margin: 0px 0 2% -148%;
+                                                                                                                                            }
+                                                                                                                                            #mainslider h4 {
+                                                                                                                                                font-size: 150%;
+                                                                                                                                                margin: 0px 0 2% -282%;
+                                                                                                                                            }
+                                                                                                                                            .theme_btn {
+                                                                                                                                                font-size: 15px;
+                                                                                                                                                font-weight: 400;
+                                                                                                                                                margin: 0px 0 0 7.3em;
+                                                                                                                                                border: 2px solid #DD4861;
+                                                                                                                                                border-radius: 5px;
+                                                                                                                                                color: white;
+                                                                                                                                                padding: 18px 36px;
+                                                                                                                                                line-height: 1;
+                                                                                                                                                letter-spacing: 0px;
+                                                                                                                                                text-transform: uppercase;
+                                                                                                                                                display: inline-block;
+                                                                                                                                                background-color: transparent;
+                                                                                                                                                margin: 0px 0 2% -116%;
+
+                                                                                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                                transition: all 0.35s ease-in-out;
+                                                                                                                                            }
+                                                                                                                                            #mainslider .slide_description_wrapper {
+                                                                                                                                                right: -1163px;
+                                                                                                                                                 -moz-transform:    scale(0.5);
+                                                                                                                                                 -o-transform:      scale(0.5);
+                                                                                                                                                 -webkit-transform: scale(0.5);
+                                                                                                                                                 transform:         scale(0.5);
+                                                                                                                                            }
+                                                                                                                                            #mainslider img {
+                                                                                                                                                /*visibility: hidden;*/
+                                                                                                                                                /*display: ;*/
+                                                                                                                                            }
+                                                                                                                                        }
+
+                                                                                                                                        /*321*/
+                                                                                                                                                @media (max-width: 321px) {
+                                                                                                                                                    #mainslider h2 {
+                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-weight: 700;
+                                                                                                                                                        font-size: 300%;
+                                                                                                                                                        letter-spacing: -1px;
+                                                                                                                                                        margin: 0px 0 2% -162%;
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider h4 {
+                                                                                                                                                        font-size: 150%;
+                                                                                                                                                        margin: -22px 0 2% -318%;
+                                                                                                                                                    }
+                                                                                                                                                    .theme_btn {
+                                                                                                                                                        font-size: 10px;
+                                                                                                                                                        font-weight: 400;
+                                                                                                                                                        margin: 0px 0 0 7.3em;
+                                                                                                                                                        border: 2px solid #DD4861;
+                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                        color: white;
+                                                                                                                                                        padding: 18px 36px;
+                                                                                                                                                        line-height: 1;
+                                                                                                                                                        letter-spacing: 0px;
+                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        background-color: transparent;
+                                                                                                                                                        margin: 0px 0 2% -128%;
+
+                                                                                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                                        transition: all 0.35s ease-in-out;
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider .slide_description_wrapper {
+                                                                                                                                                        right: -1163px;
+                                                                                                                                                         -moz-transform:    scale(0.5);
+                                                                                                                                                         -o-transform:      scale(0.5);
+                                                                                                                                                         -webkit-transform: scale(0.5);
+                                                                                                                                                         transform:         scale(0.5);
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider img {
+                                                                                                                                                        /*visibility: hidden;*/
+                                                                                                                                                        /*display: ;*/
+                                                                                                                                                    }
+                                                                                                                                                }
+
+
+
 
 
 
