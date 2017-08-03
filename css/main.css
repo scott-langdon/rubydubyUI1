@@ -327,6 +327,7 @@ html, body {position: relative; width: 100%; height: 100%;}
 ::selection {
 background: #DD4861;
 color: #fff;
+overflow-x: hidden;
 }
 
 ::-moz-selection {
@@ -334,7 +335,7 @@ background: #DD4861;
 color: #fff;
 }
 body {
-font-size: 16px;
+font-size: 20px;
 font-family: 'Lato', sans-serif;
 line-height:1.38;
 font-weight: 300;
@@ -981,19 +982,19 @@ margin: 0 0 44px;
         }
     }
 
-/*1440*/
-        @media (max-width: 1440px) {
+/*1920*/
+        @media (max-width: 1920px) {
             #mainslider h2 {
                 text-transform: uppercase;
                 color: white;
                 font-weight: 700;
-                font-size: 202px;
+                font-size: 1900%;
                 letter-spacing: -1px;
-                margin: 0 0 0 -1.7em;
+                margin: 0 0 2% -9%;
             }
             #mainslider h4 {
-                font-size: 70px;
-                margin: 0 0 0 4.1em;
+                font-size: 700%;
+                margin: 0px 0 2% -11%;
             }
             .theme_btn {
                 font-size: 47px;
@@ -1008,6 +1009,7 @@ margin: 0 0 44px;
                 text-transform: uppercase;
                 display: inline-block;
                 background-color: transparent;
+                margin: 0 0 2% 36%;
 
                 -webkit-transition: all 0.35s ease-in-out;
                 -moz-transition: all 0.35s ease-in-out;
@@ -1028,570 +1030,826 @@ margin: 0 0 44px;
             }
         }
 
+        /*1850*/
+                @media (max-width: 1850px) {
+                    #mainslider h2 {
+                        text-transform: uppercase;
+                        color: white;
+                        font-weight: 700;
+                        font-size: 1600%;
+                        letter-spacing: -1px;
+                        margin: 0 0 2% -9%;
+                    }
+                    #mainslider h4 {
+                        font-size: 500%;
+                        margin: 0px 0 2% -11%;
+                    }
+                    .theme_btn {
+                        font-size: 47px;
+                        font-weight: 400;
+                        margin: 0px 0 0 7.3em;
+                        border: 2px solid #DD4861;
+                        border-radius: 5px;
+                        color: white;
+                        padding: 18px 36px;
+                        line-height: 1;
+                        letter-spacing: 0px;
+                        text-transform: uppercase;
+                        display: inline-block;
+                        background-color: transparent;
+                        margin: 0 0 2% 35%;
 
-/*1300*/
-        @media (max-width: 1300px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 165px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -2.2em;
-            }
-            #mainslider h4 {
-                font-size: 62px;
-                margin: 0 0 0 1.1em;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 2.2em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
+                        -webkit-transition: all 0.35s ease-in-out;
+                        -moz-transition: all 0.35s ease-in-out;
+                        -o-transition: all 0.35s ease-in-out;
+                        -ms-transition: all 0.35s ease-in-out;
+                        transition: all 0.35s ease-in-out;
+                    }
+                    #mainslider .slide_description_wrapper {
+                        right: -1163px;
+                         -moz-transform:    scale(0.5);
+                         -o-transform:      scale(0.5);
+                         -webkit-transform: scale(0.5);
+                         transform:         scale(0.5);
+                    }
+                    #mainslider img {
+                        /*visibility: hidden;*/
+                        /*display: ;*/
+                    }
+                }
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -1163px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
+                /*1620*/
+                        @media (max-width: 1620px) {
+                            #mainslider h2 {
+                                text-transform: uppercase;
+                                color: white;
+                                font-weight: 700;
+                                font-size: 1300%;
+                                letter-spacing: -1px;
+                                margin: 0 0 2% -9%;
+                            }
+                            #mainslider h4 {
+                                font-size: 400%;
+                                margin: 0px 0 2% -11%;
+                            }
+                            .theme_btn {
+                                font-size: 47px;
+                                font-weight: 400;
+                                margin: 0px 0 0 7.3em;
+                                border: 2px solid #DD4861;
+                                border-radius: 5px;
+                                color: white;
+                                padding: 18px 36px;
+                                line-height: 1;
+                                letter-spacing: 0px;
+                                text-transform: uppercase;
+                                display: inline-block;
+                                background-color: transparent;
+                                margin: 0 0 2% 34%;
 
-/*1200*/
-        @media (max-width: 1200px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 165px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -2.2em;
-            }
-            #mainslider h4 {
-                font-size: 62px;
-                margin: 0 0 0 1.1em;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 2.2em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
+                                -webkit-transition: all 0.35s ease-in-out;
+                                -moz-transition: all 0.35s ease-in-out;
+                                -o-transition: all 0.35s ease-in-out;
+                                -ms-transition: all 0.35s ease-in-out;
+                                transition: all 0.35s ease-in-out;
+                            }
+                            #mainslider .slide_description_wrapper {
+                                right: -1163px;
+                                 -moz-transform:    scale(0.5);
+                                 -o-transform:      scale(0.5);
+                                 -webkit-transform: scale(0.5);
+                                 transform:         scale(0.5);
+                            }
+                            #mainslider img {
+                                /*visibility: hidden;*/
+                                /*display: ;*/
+                            }
+                        }
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -1163px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
+                        /*1410*/
+                                @media (max-width: 1430px) {
+                                    #mainslider h2 {
+                                        text-transform: uppercase;
+                                        color: white;
+                                        font-weight: 700;
+                                        font-size: 1000%;
+                                        letter-spacing: -1px;
+                                        margin: 0 0 2% -9%;
+                                    }
+                                    #mainslider h4 {
+                                        font-size: 400%;
+                                        margin: 0px 0 2% -11%;
+                                    }
+                                    .theme_btn {
+                                        font-size: 47px;
+                                        font-weight: 400;
+                                        margin: 0px 0 0 7.3em;
+                                        border: 2px solid #DD4861;
+                                        border-radius: 5px;
+                                        color: white;
+                                        padding: 18px 36px;
+                                        line-height: 1;
+                                        letter-spacing: 0px;
+                                        text-transform: uppercase;
+                                        display: inline-block;
+                                        background-color: transparent;
+                                        margin: 0px 0 2% 30%;
 
-/*1100*/
-        @media (max-width: 1100px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 135px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -2.2em;
-            }
-            #mainslider h4 {
-                font-size: 62px;
-                margin: 0 0 0 1em;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 2em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
+                                        -webkit-transition: all 0.35s ease-in-out;
+                                        -moz-transition: all 0.35s ease-in-out;
+                                        -o-transition: all 0.35s ease-in-out;
+                                        -ms-transition: all 0.35s ease-in-out;
+                                        transition: all 0.35s ease-in-out;
+                                    }
+                                    #mainslider .slide_description_wrapper {
+                                        right: -1163px;
+                                         -moz-transform:    scale(0.5);
+                                         -o-transform:      scale(0.5);
+                                         -webkit-transform: scale(0.5);
+                                         transform:         scale(0.5);
+                                    }
+                                    #mainslider img {
+                                        /*visibility: hidden;*/
+                                        /*display: ;*/
+                                    }
+                                }
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -1215px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
+                                /*1300*/
+                                        @media (max-width: 1300px) {
+                                            #mainslider h2 {
+                                                text-transform: uppercase;
+                                                color: white;
+                                                font-weight: 700;
+                                                font-size: 1000%;
+                                                letter-spacing: -1px;
+                                                margin: 0 0 2% -18%;
+                                            }
+                                            #mainslider h4 {
+                                                font-size: 400%;
+                                                margin: 0px 0 2% -27%;
+                                            }
+                                            .theme_btn {
+                                                font-size: 47px;
+                                                font-weight: 400;
+                                                margin: 0px 0 0 7.3em;
+                                                border: 2px solid #DD4861;
+                                                border-radius: 5px;
+                                                color: white;
+                                                padding: 18px 36px;
+                                                line-height: 1;
+                                                letter-spacing: 0px;
+                                                text-transform: uppercase;
+                                                display: inline-block;
+                                                background-color: transparent;
+                                                margin: 0px 0 2% 23%;
 
-/*1024 iPad Pro*/
-        @media (max-width: 1024px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 135px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -2.2em;
-            }
-            #mainslider h4 {
-                font-size: 62px;
-                margin: 0 0 0 1em;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 2em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
+                                                -webkit-transition: all 0.35s ease-in-out;
+                                                -moz-transition: all 0.35s ease-in-out;
+                                                -o-transition: all 0.35s ease-in-out;
+                                                -ms-transition: all 0.35s ease-in-out;
+                                                transition: all 0.35s ease-in-out;
+                                            }
+                                            #mainslider .slide_description_wrapper {
+                                                right: -1163px;
+                                                 -moz-transform:    scale(0.5);
+                                                 -o-transform:      scale(0.5);
+                                                 -webkit-transform: scale(0.5);
+                                                 transform:         scale(0.5);
+                                            }
+                                            #mainslider img {
+                                                /*visibility: hidden;*/
+                                                /*display: ;*/
+                                            }
+                                        }
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -930px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
+                                        /*1150*/
+                                                @media (max-width: 1150px) {
+                                                    #mainslider h2 {
+                                                        text-transform: uppercase;
+                                                        color: white;
+                                                        font-weight: 700;
+                                                        font-size: 700%;
+                                                        letter-spacing: -1px;
+                                                        margin: 0 0 2% -21%;
+                                                    }
+                                                    #mainslider h4 {
+                                                        font-size: 300%;
+                                                        margin: 0px 0 2% -33%;
+                                                    }
+                                                    .theme_btn {
+                                                        font-size: 47px;
+                                                        font-weight: 400;
+                                                        margin: 0px 0 0 7.3em;
+                                                        border: 2px solid #DD4861;
+                                                        border-radius: 5px;
+                                                        color: white;
+                                                        padding: 18px 36px;
+                                                        line-height: 1;
+                                                        letter-spacing: 0px;
+                                                        text-transform: uppercase;
+                                                        display: inline-block;
+                                                        background-color: transparent;
+                                                        margin: 0px 0 2% 16%;
 
-/*900*/
-        @media (max-width: 900px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 135px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -2.2em;
-            }
-            #mainslider h4 {
-                font-size: 62px;
-                margin: 0 0 0 1em;
-            }
-            .theme_btn {
-                font-size: 47px;
-                font-weight: 400;
-                margin: 0px 0 0 2em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
+                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                        -moz-transition: all 0.35s ease-in-out;
+                                                        -o-transition: all 0.35s ease-in-out;
+                                                        -ms-transition: all 0.35s ease-in-out;
+                                                        transition: all 0.35s ease-in-out;
+                                                    }
+                                                    #mainslider .slide_description_wrapper {
+                                                        right: -1163px;
+                                                         -moz-transform:    scale(0.5);
+                                                         -o-transform:      scale(0.5);
+                                                         -webkit-transform: scale(0.5);
+                                                         transform:         scale(0.5);
+                                                    }
+                                                    #mainslider img {
+                                                        /*visibility: hidden;*/
+                                                        /*display: ;*/
+                                                    }
+                                                }
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -880px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
+                                                /*1000*/
+                                                        @media (max-width: 1000px) {
+                                                            #mainslider h2 {
+                                                                text-transform: uppercase;
+                                                                color: white;
+                                                                font-weight: 700;
+                                                                font-size: 700%;
+                                                                letter-spacing: -1px;
+                                                                margin: 0 0 2% -28%;
+                                                            }
+                                                            #mainslider h4 {
+                                                                font-size: 300%;
+                                                                margin: 0px 0 2% -43%;
+                                                            }
+                                                            .theme_btn {
+                                                                font-size: 47px;
+                                                                font-weight: 400;
+                                                                margin: 0px 0 0 7.3em;
+                                                                border: 2px solid #DD4861;
+                                                                border-radius: 5px;
+                                                                color: white;
+                                                                padding: 18px 36px;
+                                                                line-height: 1;
+                                                                letter-spacing: 0px;
+                                                                text-transform: uppercase;
+                                                                display: inline-block;
+                                                                background-color: transparent;
+                                                                margin: 0px 0 2% 6%;
 
-/*800*/
-    @media (max-width: 875px) {
-        #mainslider h2 {
-            text-transform: uppercase;
-            color: white;
-            font-weight: 700;
-            font-size: 94px;
-            letter-spacing: -1px;
-            margin: 0 0 0 -3.0em;
-        }
-        #mainslider h4 {
-            font-size: 36px;
-            margin: 0 0 0 -1em;
-        }
-        .theme_btn {
-            font-size: 29px;
-            font-weight: 400;
-            margin: 0 0 0 -1em;
-            border: 2px solid #DD4861;
-            border-radius: 5px;
-            color: white;
-            padding: 18px 36px;
-            line-height: 1;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            display: inline-block;
-            background-color: transparent;
+                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                -o-transition: all 0.35s ease-in-out;
+                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                transition: all 0.35s ease-in-out;
+                                                            }
+                                                            #mainslider .slide_description_wrapper {
+                                                                right: -1163px;
+                                                                 -moz-transform:    scale(0.5);
+                                                                 -o-transform:      scale(0.5);
+                                                                 -webkit-transform: scale(0.5);
+                                                                 transform:         scale(0.5);
+                                                            }
+                                                            #mainslider img {
+                                                                /*visibility: hidden;*/
+                                                                /*display: ;*/
+                                                            }
+                                                        }
 
-            -webkit-transition: all 0.35s ease-in-out;
-            -moz-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-        #mainslider .slide_description_wrapper {
-            right: -930px;
-             -moz-transform:    scale(0.5);
-             -o-transform:      scale(0.5);
-             -webkit-transform: scale(0.5);
-             transform:         scale(0.5);
-        }
-        #mainslider img {
-            display: ;
-        }
-    }
-/*700*/
-    @media (max-width: 700px) {
-        #mainslider h2 {
-            text-transform: uppercase;
-            color: white;
-            font-weight: 700;
-            font-size: 96px;
-            letter-spacing: -1px;
-            margin: 0 0 0 -5.8em;
-        }
-        #mainslider h4 {
-            font-size: 55px;
-            margin: 0 0 0 -6em;
-        }
-        .theme_btn {
-            font-size: 34px;
-            font-weight: 400;
-            margin: 0px 0 0 -8.5em;
-            border: 2px solid #DD4861;
-            border-radius: 5px;
-            color: white;
-            padding: 18px 36px;
-            line-height: 1;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            display: inline-block;
-            background-color: transparent;
+                                                        /*950*/
+                                                                @media (max-width: 950px) {
+                                                                    #mainslider h2 {
+                                                                        text-transform: uppercase;
+                                                                        color: white;
+                                                                        font-weight: 700;
+                                                                        font-size: 600%;
+                                                                        letter-spacing: -1px;
+                                                                        margin: 0 0 2% -34%;
+                                                                    }
+                                                                    #mainslider h4 {
+                                                                        font-size: 200%;
+                                                                        margin: 0px 0 2% -61%;
+                                                                    }
+                                                                    .theme_btn {
+                                                                        font-size: 28px;
+                                                                        font-weight: 400;
+                                                                        margin: 0px 0 0 7.3em;
+                                                                        border: 2px solid #DD4861;
+                                                                        border-radius: 5px;
+                                                                        color: white;
+                                                                        padding: 18px 36px;
+                                                                        line-height: 1;
+                                                                        letter-spacing: 0px;
+                                                                        text-transform: uppercase;
+                                                                        display: inline-block;
+                                                                        background-color: transparent;
+                                                                        margin: 0px 0 2% 4%;
 
-            -webkit-transition: all 0.35s ease-in-out;
-            -moz-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-        #mainslider .slide_description_wrapper {
-            right: -1300px;
-             -moz-transform:    scale(0.5);
-             -o-transform:      scale(0.5);
-             -webkit-transform: scale(0.5);
-             transform:         scale(0.5);
-        }
-        #mainslider img {
-            /*visibility: hidden;*/
-            /*display: ;*/
-        }
-    }
+                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                        transition: all 0.35s ease-in-out;
+                                                                    }
+                                                                    #mainslider .slide_description_wrapper {
+                                                                        right: -1163px;
+                                                                         -moz-transform:    scale(0.5);
+                                                                         -o-transform:      scale(0.5);
+                                                                         -webkit-transform: scale(0.5);
+                                                                         transform:         scale(0.5);
+                                                                    }
+                                                                    #mainslider img {
+                                                                        /*visibility: hidden;*/
+                                                                        /*display: ;*/
+                                                                    }
+                                                                }
+
+                                                                /*850*/
+                                                                        @media (max-width: 850px) {
+                                                                            #mainslider h2 {
+                                                                                text-transform: uppercase;
+                                                                                color: white;
+                                                                                font-weight: 700;
+                                                                                font-size: 600%;
+                                                                                letter-spacing: -1px;
+                                                                                margin: 0 0 2% -42%;
+                                                                            }
+                                                                            #mainslider h4 {
+                                                                                font-size: 200%;
+                                                                                margin: 0px 0 2% -77%;
+                                                                            }
+                                                                            .theme_btn {
+                                                                                font-size: 28px;
+                                                                                font-weight: 400;
+                                                                                margin: 0px 0 0 7.3em;
+                                                                                border: 2px solid #DD4861;
+                                                                                border-radius: 5px;
+                                                                                color: white;
+                                                                                padding: 18px 36px;
+                                                                                line-height: 1;
+                                                                                letter-spacing: 0px;
+                                                                                text-transform: uppercase;
+                                                                                display: inline-block;
+                                                                                background-color: transparent;
+                                                                                margin: 0px 0 2% -5%;
+
+                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                transition: all 0.35s ease-in-out;
+                                                                            }
+                                                                            #mainslider .slide_description_wrapper {
+                                                                                right: -1163px;
+                                                                                 -moz-transform:    scale(0.5);
+                                                                                 -o-transform:      scale(0.5);
+                                                                                 -webkit-transform: scale(0.5);
+                                                                                 transform:         scale(0.5);
+                                                                            }
+                                                                            #mainslider img {
+                                                                                /*visibility: hidden;*/
+                                                                                /*display: ;*/
+                                                                            }
+                                                                        }
+
+                                                                        /*780px*/
+                                                                                @media (max-width: 780px) {
+                                                                                    #mainslider h2 {
+                                                                                        text-transform: uppercase;
+                                                                                        color: white;
+                                                                                        font-weight: 700;
+                                                                                        font-size: 600%;
+                                                                                        letter-spacing: -1px;
+                                                                                        margin: 0 0 2% -56%;
+                                                                                    }
+                                                                                    #mainslider h4 {
+                                                                                        font-size: 200%;
+                                                                                        margin: 0px 0 2% -100%;
+                                                                                    }
+                                                                                    .theme_btn {
+                                                                                        font-size: 28px;
+                                                                                        font-weight: 400;
+                                                                                        margin: 0px 0 0 7.3em;
+                                                                                        border: 2px solid #DD4861;
+                                                                                        border-radius: 5px;
+                                                                                        color: white;
+                                                                                        padding: 18px 36px;
+                                                                                        line-height: 1;
+                                                                                        letter-spacing: 0px;
+                                                                                        text-transform: uppercase;
+                                                                                        display: inline-block;
+                                                                                        background-color: transparent;
+                                                                                        margin: 0px 0 2% -16%;
+
+                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                        transition: all 0.35s ease-in-out;
+                                                                                    }
+                                                                                    #mainslider .slide_description_wrapper {
+                                                                                        right: -1163px;
+                                                                                         -moz-transform:    scale(0.5);
+                                                                                         -o-transform:      scale(0.5);
+                                                                                         -webkit-transform: scale(0.5);
+                                                                                         transform:         scale(0.5);
+                                                                                    }
+                                                                                    #mainslider img {
+                                                                                        /*visibility: hidden;*/
+                                                                                        /*display: ;*/
+                                                                                    }
+                                                                                }
+
+                                                                                /*700*/
+                                                                                        @media (max-width: 700px) {
+                                                                                            #mainslider h2 {
+                                                                                                text-transform: uppercase;
+                                                                                                color: white;
+                                                                                                font-weight: 700;
+                                                                                                font-size: 550%;
+                                                                                                letter-spacing: -1px;
+                                                                                                margin: 0px 0 2% -67%;
+                                                                                            }
+                                                                                            #mainslider h4 {
+                                                                                                font-size: 200%;
+                                                                                                margin: 0px 0 2% -124%;
+                                                                                            }
+                                                                                            .theme_btn {
+                                                                                                font-size: 28px;
+                                                                                                font-weight: 400;
+                                                                                                margin: 0px 0 0 7.3em;
+                                                                                                border: 2px solid #DD4861;
+                                                                                                border-radius: 5px;
+                                                                                                color: white;
+                                                                                                padding: 18px 36px;
+                                                                                                line-height: 1;
+                                                                                                letter-spacing: 0px;
+                                                                                                text-transform: uppercase;
+                                                                                                display: inline-block;
+                                                                                                background-color: transparent;
+                                                                                                margin: 0px 0 2% -30%;
+
+                                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                                transition: all 0.35s ease-in-out;
+                                                                                            }
+                                                                                            #mainslider .slide_description_wrapper {
+                                                                                                right: -1163px;
+                                                                                                 -moz-transform:    scale(0.5);
+                                                                                                 -o-transform:      scale(0.5);
+                                                                                                 -webkit-transform: scale(0.5);
+                                                                                                 transform:         scale(0.5);
+                                                                                            }
+                                                                                            #mainslider img {
+                                                                                                /*visibility: hidden;*/
+                                                                                                /*display: ;*/
+                                                                                            }
+                                                                                        }
+
+                                                                                        /*630*/
+                                                                                                @media (max-width: 630px) {
+                                                                                                    #mainslider h2 {
+                                                                                                        text-transform: uppercase;
+                                                                                                        color: white;
+                                                                                                        font-weight: 700;
+                                                                                                        font-size: 550%;
+                                                                                                        letter-spacing: -1px;
+                                                                                                        margin: 0px 0 2% -73%;
+                                                                                                    }
+                                                                                                    #mainslider h4 {
+                                                                                                        font-size: 200%;
+                                                                                                        margin: 0px 0 2% -134%;
+                                                                                                    }
+                                                                                                    .theme_btn {
+                                                                                                        font-size: 28px;
+                                                                                                        font-weight: 400;
+                                                                                                        margin: 0px 0 0 7.3em;
+                                                                                                        border: 2px solid #DD4861;
+                                                                                                        border-radius: 5px;
+                                                                                                        color: white;
+                                                                                                        padding: 18px 36px;
+                                                                                                        line-height: 1;
+                                                                                                        letter-spacing: 0px;
+                                                                                                        text-transform: uppercase;
+                                                                                                        display: inline-block;
+                                                                                                        background-color: transparent;
+                                                                                                        margin: 0px 0 2% -36%;
+
+                                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                                        transition: all 0.35s ease-in-out;
+                                                                                                    }
+                                                                                                    #mainslider .slide_description_wrapper {
+                                                                                                        right: -1163px;
+                                                                                                         -moz-transform:    scale(0.5);
+                                                                                                         -o-transform:      scale(0.5);
+                                                                                                         -webkit-transform: scale(0.5);
+                                                                                                         transform:         scale(0.5);
+                                                                                                    }
+                                                                                                    #mainslider img {
+                                                                                                        /*visibility: hidden;*/
+                                                                                                        /*display: ;*/
+                                                                                                    }
+                                                                                                }
+
+                                                                                                /*580*/
+                                                                                                        @media (max-width: 580px) {
+                                                                                                            #mainslider h2 {
+                                                                                                                text-transform: uppercase;
+                                                                                                                color: white;
+                                                                                                                font-weight: 700;
+                                                                                                                font-size: 500%;
+                                                                                                                letter-spacing: -1px;
+                                                                                                                margin: 0px 0 2% -85%;
+                                                                                                            }
+                                                                                                            #mainslider h4 {
+                                                                                                                font-size: 200%;
+                                                                                                                margin: 0px 0 2% -163%;
+                                                                                                            }
+                                                                                                            .theme_btn {
+                                                                                                                font-size: 28px;
+                                                                                                                font-weight: 400;
+                                                                                                                margin: 0px 0 0 7.3em;
+                                                                                                                border: 2px solid #DD4861;
+                                                                                                                border-radius: 5px;
+                                                                                                                color: white;
+                                                                                                                padding: 18px 36px;
+                                                                                                                line-height: 1;
+                                                                                                                letter-spacing: 0px;
+                                                                                                                text-transform: uppercase;
+                                                                                                                display: inline-block;
+                                                                                                                background-color: transparent;
+                                                                                                                margin: 0px 0 2% -53%;
+
+                                                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                                                transition: all 0.35s ease-in-out;
+                                                                                                            }
+                                                                                                            #mainslider .slide_description_wrapper {
+                                                                                                                right: -1163px;
+                                                                                                                 -moz-transform:    scale(0.5);
+                                                                                                                 -o-transform:      scale(0.5);
+                                                                                                                 -webkit-transform: scale(0.5);
+                                                                                                                 transform:         scale(0.5);
+                                                                                                            }
+                                                                                                            #mainslider img {
+                                                                                                                /*visibility: hidden;*/
+                                                                                                                /*display: ;*/
+                                                                                                            }
+                                                                                                        }
+
+                                                                                                        /*515*/
+                                                                                                                @media (max-width: 515px) {
+                                                                                                                    #mainslider h2 {
+                                                                                                                        text-transform: uppercase;
+                                                                                                                        color: white;
+                                                                                                                        font-weight: 700;
+                                                                                                                        font-size: 400%;
+                                                                                                                        letter-spacing: -1px;
+                                                                                                                        margin: 0px 0 2% -101%;
+                                                                                                                    }
+                                                                                                                    #mainslider h4 {
+                                                                                                                        font-size: 200%;
+                                                                                                                        margin: 0px 0 2% -196%;
+                                                                                                                    }
+                                                                                                                    .theme_btn {
+                                                                                                                        font-size: 28px;
+                                                                                                                        font-weight: 400;
+                                                                                                                        margin: 0px 0 0 7.3em;
+                                                                                                                        border: 2px solid #DD4861;
+                                                                                                                        border-radius: 5px;
+                                                                                                                        color: white;
+                                                                                                                        padding: 18px 36px;
+                                                                                                                        line-height: 1;
+                                                                                                                        letter-spacing: 0px;
+                                                                                                                        text-transform: uppercase;
+                                                                                                                        display: inline-block;
+                                                                                                                        background-color: transparent;
+                                                                                                                        margin: 0px 0 2% -73%;
+
+                                                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                                                        transition: all 0.35s ease-in-out;
+                                                                                                                    }
+                                                                                                                    #mainslider .slide_description_wrapper {
+                                                                                                                        right: -1163px;
+                                                                                                                         -moz-transform:    scale(0.5);
+                                                                                                                         -o-transform:      scale(0.5);
+                                                                                                                         -webkit-transform: scale(0.5);
+                                                                                                                         transform:         scale(0.5);
+                                                                                                                    }
+                                                                                                                    #mainslider img {
+                                                                                                                        /*visibility: hidden;*/
+                                                                                                                        /*display: ;*/
+                                                                                                                    }
+                                                                                                                }
+
+                                                                                                                /*470*/
+                                                                                                                        @media (max-width: 470px) {
+                                                                                                                            #mainslider h2 {
+                                                                                                                                text-transform: uppercase;
+                                                                                                                                color: white;
+                                                                                                                                font-weight: 700;
+                                                                                                                                font-size: 375%;
+                                                                                                                                letter-spacing: -1px;
+                                                                                                                                margin: 0px 0 2% -115%;
+                                                                                                                            }
+                                                                                                                            #mainslider h4 {
+                                                                                                                                font-size: 175%;
+                                                                                                                                margin: 0px 0 2% -218%;
+                                                                                                                            }
+                                                                                                                            .theme_btn {
+                                                                                                                                font-size: 28px;
+                                                                                                                                font-weight: 400;
+                                                                                                                                margin: 0px 0 0 7.3em;
+                                                                                                                                border: 2px solid #DD4861;
+                                                                                                                                border-radius: 5px;
+                                                                                                                                color: white;
+                                                                                                                                padding: 18px 36px;
+                                                                                                                                line-height: 1;
+                                                                                                                                letter-spacing: 0px;
+                                                                                                                                text-transform: uppercase;
+                                                                                                                                display: inline-block;
+                                                                                                                                background-color: transparent;
+                                                                                                                                margin: 0px 0 2% -89%;
+
+                                                                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                transition: all 0.35s ease-in-out;
+                                                                                                                            }
+                                                                                                                            #mainslider .slide_description_wrapper {
+                                                                                                                                right: -1163px;
+                                                                                                                                 -moz-transform:    scale(0.5);
+                                                                                                                                 -o-transform:      scale(0.5);
+                                                                                                                                 -webkit-transform: scale(0.5);
+                                                                                                                                 transform:         scale(0.5);
+                                                                                                                            }
+                                                                                                                            #mainslider img {
+                                                                                                                                /*visibility: hidden;*/
+                                                                                                                                /*display: ;*/
+                                                                                                                            }
+                                                                                                                        }
+
+                                                                                                                        /*421*/
+                                                                                                                                @media (max-width: 420px) {
+                                                                                                                                    #mainslider h2 {
+                                                                                                                                        text-transform: uppercase;
+                                                                                                                                        color: white;
+                                                                                                                                        font-weight: 700;
+                                                                                                                                        font-size: 300%;
+                                                                                                                                        letter-spacing: -1px;
+                                                                                                                                        margin: 0px 0 2% -138%;
+                                                                                                                                    }
+                                                                                                                                    #mainslider h4 {
+                                                                                                                                        font-size: 150%;
+                                                                                                                                        margin: 0px 0 2% -266%;
+                                                                                                                                    }
+                                                                                                                                    .theme_btn {
+                                                                                                                                        font-size: 15px;
+                                                                                                                                        font-weight: 400;
+                                                                                                                                        margin: 0px 0 0 7.3em;
+                                                                                                                                        border: 2px solid #DD4861;
+                                                                                                                                        border-radius: 5px;
+                                                                                                                                        color: white;
+                                                                                                                                        padding: 18px 36px;
+                                                                                                                                        line-height: 1;
+                                                                                                                                        letter-spacing: 0px;
+                                                                                                                                        text-transform: uppercase;
+                                                                                                                                        display: inline-block;
+                                                                                                                                        background-color: transparent;
+                                                                                                                                        margin: 0px 0 2% -106%;
+
+                                                                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                        transition: all 0.35s ease-in-out;
+                                                                                                                                    }
+                                                                                                                                    #mainslider .slide_description_wrapper {
+                                                                                                                                        right: -1163px;
+                                                                                                                                         -moz-transform:    scale(0.5);
+                                                                                                                                         -o-transform:      scale(0.5);
+                                                                                                                                         -webkit-transform: scale(0.5);
+                                                                                                                                         transform:         scale(0.5);
+                                                                                                                                    }
+                                                                                                                                    #mainslider img {
+                                                                                                                                        /*visibility: hidden;*/
+                                                                                                                                        /*display: ;*/
+                                                                                                                                    }
+                                                                                                                                }
+
+                                                                                                                                /*376*/
+                                                                                                                                        @media (max-width: 375px) {
+                                                                                                                                            #mainslider h2 {
+                                                                                                                                                text-transform: uppercase;
+                                                                                                                                                color: white;
+                                                                                                                                                font-weight: 700;
+                                                                                                                                                font-size: 300%;
+                                                                                                                                                letter-spacing: -1px;
+                                                                                                                                                margin: 0px 0 2% -148%;
+                                                                                                                                            }
+                                                                                                                                            #mainslider h4 {
+                                                                                                                                                font-size: 150%;
+                                                                                                                                                margin: 0px 0 2% -282%;
+                                                                                                                                            }
+                                                                                                                                            .theme_btn {
+                                                                                                                                                font-size: 15px;
+                                                                                                                                                font-weight: 400;
+                                                                                                                                                margin: 0px 0 0 7.3em;
+                                                                                                                                                border: 2px solid #DD4861;
+                                                                                                                                                border-radius: 5px;
+                                                                                                                                                color: white;
+                                                                                                                                                padding: 18px 36px;
+                                                                                                                                                line-height: 1;
+                                                                                                                                                letter-spacing: 0px;
+                                                                                                                                                text-transform: uppercase;
+                                                                                                                                                display: inline-block;
+                                                                                                                                                background-color: transparent;
+                                                                                                                                                margin: 0px 0 2% -116%;
+
+                                                                                                                                                -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                                -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                                -o-transition: all 0.35s ease-in-out;
+                                                                                                                                                -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                                transition: all 0.35s ease-in-out;
+                                                                                                                                            }
+                                                                                                                                            #mainslider .slide_description_wrapper {
+                                                                                                                                                right: -1163px;
+                                                                                                                                                 -moz-transform:    scale(0.5);
+                                                                                                                                                 -o-transform:      scale(0.5);
+                                                                                                                                                 -webkit-transform: scale(0.5);
+                                                                                                                                                 transform:         scale(0.5);
+                                                                                                                                            }
+                                                                                                                                            #mainslider img {
+                                                                                                                                                /*visibility: hidden;*/
+                                                                                                                                                /*display: ;*/
+                                                                                                                                            }
+                                                                                                                                        }
+
+                                                                                                                                        /*321*/
+                                                                                                                                                @media (max-width: 321px) {
+                                                                                                                                                    #mainslider h2 {
+                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                        color: white;
+                                                                                                                                                        font-weight: 700;
+                                                                                                                                                        font-size: 300%;
+                                                                                                                                                        letter-spacing: -1px;
+                                                                                                                                                        margin: 0px 0 2% -162%;
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider h4 {
+                                                                                                                                                        font-size: 150%;
+                                                                                                                                                        margin: -22px 0 2% -318%;
+                                                                                                                                                    }
+                                                                                                                                                    .theme_btn {
+                                                                                                                                                        font-size: 10px;
+                                                                                                                                                        font-weight: 400;
+                                                                                                                                                        margin: 0px 0 0 7.3em;
+                                                                                                                                                        border: 2px solid #DD4861;
+                                                                                                                                                        border-radius: 5px;
+                                                                                                                                                        color: white;
+                                                                                                                                                        padding: 18px 36px;
+                                                                                                                                                        line-height: 1;
+                                                                                                                                                        letter-spacing: 0px;
+                                                                                                                                                        text-transform: uppercase;
+                                                                                                                                                        display: inline-block;
+                                                                                                                                                        background-color: transparent;
+                                                                                                                                                        margin: 0px 0 2% -128%;
+
+                                                                                                                                                        -webkit-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -moz-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -o-transition: all 0.35s ease-in-out;
+                                                                                                                                                        -ms-transition: all 0.35s ease-in-out;
+                                                                                                                                                        transition: all 0.35s ease-in-out;
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider .slide_description_wrapper {
+                                                                                                                                                        right: -1163px;
+                                                                                                                                                         -moz-transform:    scale(0.5);
+                                                                                                                                                         -o-transform:      scale(0.5);
+                                                                                                                                                         -webkit-transform: scale(0.5);
+                                                                                                                                                         transform:         scale(0.5);
+                                                                                                                                                    }
+                                                                                                                                                    #mainslider img {
+                                                                                                                                                        /*visibility: hidden;*/
+                                                                                                                                                        /*display: ;*/
+                                                                                                                                                    }
+                                                                                                                                                }
 
 
-/*600*/
-    @media (max-width: 600px) {
-        #mainslider h2 {
-            text-transform: uppercase;
-            color: white;
-            font-weight: 700;
-            font-size: 75px;
-            letter-spacing: -1px;
-            margin: 0 0 0 -5.8em;
-        }
-        #mainslider h4 {
-            font-size: 42px;
-            margin: 0 0 0 -6em;
-        }
-        .theme_btn {
-            font-size: 27px;
-            font-weight: 400;
-            margin: 0px 0 0 -8.5em;
-            border: 2px solid #DD4861;
-            border-radius: 5px;
-            color: white;
-            padding: 18px 36px;
-            line-height: 1;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            display: inline-block;
-            background-color: transparent;
-
-            -webkit-transition: all 0.35s ease-in-out;
-            -moz-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-        #mainslider .slide_description_wrapper {
-            right: -1040px;
-             -moz-transform:    scale(0.5);
-             -o-transform:      scale(0.5);
-             -webkit-transform: scale(0.5);
-             transform:         scale(0.5);
-        }
-        #mainslider img {
-            /*visibility: hidden;*/
-            /*display: ;*/
-        }
-    }
-
-/*500*/
-    @media (max-width: 500px) {
-        #mainslider h2 {
-            text-transform: uppercase;
-            color: white;
-            font-weight: 700;
-            font-size: 75px;
-            letter-spacing: -1px;
-            margin: 0 0 0 -5.8em;
-        }
-        #mainslider h4 {
-            font-size: 42px;
-            margin: 0 0 0 -6em;
-        }
-        .theme_btn {
-            font-size: 27px;
-            font-weight: 400;
-            margin: 0px 0 0 -8.5em;
-            border: 2px solid #DD4861;
-            border-radius: 5px;
-            color: white;
-            padding: 18px 36px;
-            line-height: 1;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            display: inline-block;
-            background-color: transparent;
-
-            -webkit-transition: all 0.35s ease-in-out;
-            -moz-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-        #mainslider .slide_description_wrapper {
-            right: -930px;
-             -moz-transform:    scale(0.5);
-             -o-transform:      scale(0.5);
-             -webkit-transform: scale(0.5);
-             transform:         scale(0.5);
-        }
-        #mainslider img {
-            /*visibility: hidden;*/
-            /*display: ;*/
-        }
-    }
 
 
-/*414 iPhone6 Plus*/
-        @media (max-width: 414px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 46px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -9.2em;
-            }
-            #mainslider h4 {
-                font-size: 40px;
-                margin: 0 0 0 -9.3em;
-            }
-            .theme_btn {
-                font-size: 27px;
-                font-weight: 400;
-                margin: 0px 0 0 -13.1em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
 
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -930px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
-
-/*375 iPhone6*/
-        @media (max-width: 375px) {
-            #mainslider h2 {
-                text-transform: uppercase;
-                color: white;
-                font-weight: 700;
-                font-size: 40px;
-                letter-spacing: -1px;
-                margin: 0 0 0 -10.5em;
-            }
-            #mainslider h4 {
-                font-size: 36px;
-                margin: 0 0 0 -10.5em;
-            }
-            .theme_btn {
-                font-size: 27px;
-                font-weight: 400;
-                margin: 0px 0 0 -13.8em;
-                border: 2px solid #DD4861;
-                border-radius: 5px;
-                color: white;
-                padding: 18px 36px;
-                line-height: 1;
-                letter-spacing: 0px;
-                text-transform: uppercase;
-                display: inline-block;
-                background-color: transparent;
-
-                -webkit-transition: all 0.35s ease-in-out;
-                -moz-transition: all 0.35s ease-in-out;
-                -o-transition: all 0.35s ease-in-out;
-                -ms-transition: all 0.35s ease-in-out;
-                transition: all 0.35s ease-in-out;
-            }
-            #mainslider .slide_description_wrapper {
-                right: -930px;
-                 -moz-transform:    scale(0.5);
-                 -o-transform:      scale(0.5);
-                 -webkit-transform: scale(0.5);
-                 transform:         scale(0.5);
-            }
-            #mainslider img {
-                /*visibility: hidden;*/
-                /*display: ;*/
-            }
-        }
-
-/*320 iPhone5*/
-    @media (max-width: 320px) {
-        #mainslider h2 {
-            text-transform: uppercase;
-            color: white;
-            font-weight: 700;
-            font-size: 40px;
-            letter-spacing: -1px;
-            margin: 0 0 0 -11.0em;
-        }
-        #mainslider h4 {
-            font-size: 36px;
-            margin: 0 0 0 -11em;
-        }
-        .theme_btn {
-            font-size: 27px;
-            font-weight: 400;
-            margin: 0 0 0 -14.5em;
-            border: 2px solid #DD4861;
-            border-radius: 5px;
-            color: white;
-            padding: 18px 36px;
-            line-height: 1;
-            letter-spacing: 0px;
-            text-transform: uppercase;
-            display: inline-block;
-            background-color: transparent;
-
-            -webkit-transition: all 0.35s ease-in-out;
-            -moz-transition: all 0.35s ease-in-out;
-            -o-transition: all 0.35s ease-in-out;
-            -ms-transition: all 0.35s ease-in-out;
-            transition: all 0.35s ease-in-out;
-        }
-        #mainslider .slide_description_wrapper {
-            right: -930px;
-             -moz-transform:    scale(0.5);
-             -o-transform:      scale(0.5);
-             -webkit-transform: scale(0.5);
-             transform:         scale(0.5);
-        }
-        #mainslider img {
-            /*visibility: hidden;*/
-            /*display: ;*/
-        }
-    }
 
 #infoslider {
 position: relative;
@@ -4370,4 +4628,34 @@ max-width: 100%;
 
 .rdg-logo-mobile-navbar h1{
     width: 80px;
+}
+
+.rubydubyglam-header {
+    font-family: 'Great Vibes', cursive;
+    text-transform: none !important;
+    /*margin: 0 !important;*/
+}
+
+.rubydubyglam-welcome-to {
+    text-align: center !important;
+    /*margin: 0 !important;*/
+    /*margin-bottom: 2% !important;*/
+}
+
+.book-now-button {
+    /*text-align: center !important;*/
+    /*margin: 0 !important;*/
+    /*margin-top: 1% !important;*/
+}
+
+.theme_btn {
+    /*margin: 0 !important;*/
+}
+
+.social-media-links {
+    font-size: 250%;
+}
+
+.locations {
+    font-family: 'Great Vibes', cursive;
 }
